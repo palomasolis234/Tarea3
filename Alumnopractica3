@@ -1,0 +1,15 @@
+public class Alumnopractica3 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+         Telefono telefono = new Telefono("52", "981","9811113448");
+         Tutor tutor = new Tutor("mama", 40, telefono);
+          Alumno Alumno = new Alumno ("paloma", "Alu3" ,"sistemas", "72104", "3", "B", tutor );
+
+          String Telefono = Alu3.getTutor().getTelefono().toString();
+        System.out.println("Telefono tutor: " +telefono);
+    }
+
